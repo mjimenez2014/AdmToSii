@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+<SetDTE ID="EnvioDTE-99520000-7-76141730-4-20160307-065544-7DCD6805">
+<Caratula version="1.0">
+<RutEmisor>99520000-7</RutEmisor>
+<RutEnvia>5544700-4</RutEnvia>
+<RutReceptor>76141730-4</RutReceptor>
+<FchResol>2010-04-01</FchResol>
+<NroResol>61</NroResol>
+<TmstFirmaEnv>2016-03-07T06:55:44</TmstFirmaEnv>
+<SubTotDTE>
+<TpoDTE>33</TpoDTE>
+<NroDTE>1</NroDTE>
+</SubTotDTE>
+</Caratula>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+      <Documento ID="T33F4210971">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>33</TipoDTE>
+            <Folio>4210971</Folio>
+            <FchEmis>2016-02-29</FchEmis>
+            <FchVenc>2016-03-10</FchVenc>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>99520000-7</RUTEmisor>
+            <RznSoc>COMPAÑIA DE PETROLEOS DE CHILE COPEC S.A.</RznSoc>
+            <GiroEmis>Distribución de Combustibles y exportación</GiroEmis>
+            <CorreoEmisor>emisionfacturas@copec.cl</CorreoEmisor>
+            <Acteco>514110</Acteco>
+            <Sucursal>Casa Matriz</Sucursal>
+            <CdgSIISucur>64222945</CdgSIISucur>
+            <DirOrigen>Agustinas 1382</DirOrigen>
+            <CmnaOrigen>Santiago</CmnaOrigen>
+            <CiudadOrigen>SANTIAGO</CiudadOrigen>
+            <CdgVendedor>0</CdgVendedor>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>76141730-4</RUTRecep>
+            <CdgIntRecep>743952</CdgIntRecep>
+            <RznSocRecep>DILA LIMITADA</RznSocRecep>
+            <GiroRecep>COMERCIO</GiroRecep>
+            <CorreoRecep>HUMBERTO@DILA.CL;RODRIGO@DILA.CL;VENTAS@DILA.CL;</CorreoRecep>
+            <DirRecep>ANTILLANCA SUR N° 611 - C</DirRecep>
+            <CmnaRecep>PUDAHUEL</CmnaRecep>
+            <CiudadRecep>SANTIAGO</CiudadRecep>
+            <DirPostal>ANTILLANCA SUR N° 611 - C</DirPostal>
+            <CmnaPostal>PUDAHUEL</CmnaPostal>
+          </Receptor>
+          <Transporte>
+            <DirDest>ANTILLANCA SUR N° 611 - C</DirDest>
+            <CmnaDest>PUDAHUEL</CmnaDest>
+            <CiudadDest>SANTIAGO</CiudadDest>
+          </Transporte>
+          <Totales>
+            <MntNeto>22197</MntNeto>
+            <MntExe>0</MntExe>
+            <TasaIVA>19.00</TasaIVA>
+            <IVA>4218</IVA>
+            <ImptoReten>
+              <TipoImp>28</TipoImp>
+              <MontoImp>5438</MontoImp>
+            </ImptoReten>
+            <MntTotal>31853</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <IndExe>4</IndExe>
+          <NmbItem>Fecha-Guía-Rollo</NmbItem>
+          <DscItem>23.02.16-61601957-1193201*27.02.16-51602109-1193200</DscItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>2</NroLinDet>
+          <IndExe>4</IndExe>
+          <NmbItem>Total</NmbItem>
+          <DscItem>PETROLEO DIESEL ULTRA A1 NU 1202 79,870 Litro</DscItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>3</NroLinDet>
+          <NmbItem>DETALLE</NmbItem>
+          <DscItem>PETROLEO DIESEL NU 1202| 36.660|L</DscItem>
+          <Subcantidad>
+            <SubQty>67.43250</SubQty>
+            <SubCod>IEF|Fecha corte:24/02/2016</SubCod>
+          </Subcantidad>
+          <CodImpAdic>28</CodImpAdic>
+          <MontoItem>10276</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>4</NroLinDet>
+          <NmbItem>DETALLE</NmbItem>
+          <DscItem>PETROLEO DIESEL NU 1202| 43.210|L</DscItem>
+          <Subcantidad>
+            <SubQty>1.20030</SubQty>
+            <SubCod>IEV|Fecha corte:29/02/2016</SubCod>
+          </Subcantidad>
+          <Subcantidad>
+            <SubQty>67.43250</SubQty>
+            <SubCod>IEF|Fecha corte:29/02/2016</SubCod>
+          </Subcantidad>
+          <CodImpAdic>28</CodImpAdic>
+          <MontoItem>11921</MontoItem>
+        </Detalle>
+        <SubTotInfo>
+          <NroSTI>1</NroSTI>
+          <GlosaSTI>IEF|28|Total DTE| </GlosaSTI>
+          <SubTotNetoSTI>5386</SubTotNetoSTI>
+        </SubTotInfo>
+        <SubTotInfo>
+          <NroSTI>2</NroSTI>
+          <GlosaSTI>IEV|28|Total DTE| </GlosaSTI>
+          <SubTotNetoSTI>52</SubTotNetoSTI>
+        </SubTotInfo>
+        <Referencia>
+          <NroLinRef>1</NroLinRef>
+          <TpoDocRef>50</TpoDocRef>
+          <FolioRef>61601957</FolioRef>
+          <FchRef>2016-02-23</FchRef>
+          <CodRef>3</CodRef>
+        </Referencia>
+        <Referencia>
+          <NroLinRef>2</NroLinRef>
+          <TpoDocRef>50</TpoDocRef>
+          <FolioRef>51602109</FolioRef>
+          <FchRef>2016-02-27</FchRef>
+          <CodRef>3</CodRef>
+        </Referencia>
+        <Referencia>
+          <NroLinRef>3</NroLinRef>
+          <TpoDocRef>OBS</TpoDocRef>
+          <FolioRef>OBSE1</FolioRef>
+          <FchRef>2016-02-29</FchRef>
+          <RazonRef>Estimado Cliente: Le Recordamos que el no pago de esta factura a la fecha de su vencimient</RazonRef>
+        </Referencia>
+        <Referencia>
+          <NroLinRef>4</NroLinRef>
+          <TpoDocRef>OBS</TpoDocRef>
+          <FolioRef>OBSE3</FolioRef>
+          <FchRef>2016-02-29</FchRef>
+          <RazonRef>Impuesto ley 18.502. No recuperable por petróleo diesel que se use en vehículos que transi</RazonRef>
+        </Referencia>
+        <Referencia>
+          <NroLinRef>5</NroLinRef>
+          <TpoDocRef>OBS</TpoDocRef>
+          <FolioRef>OBSE6</FolioRef>
+          <FchRef>2016-02-29</FchRef>
+          <RazonRef>COBRO TCT PREMIUM: $0</RazonRef>
+        </Referencia>
+        <Referencia>
+          <NroLinRef>6</NroLinRef>
+          <TpoDocRef>OBS</TpoDocRef>
+          <FolioRef>OBSE7</FolioRef>
+          <FchRef>2016-02-29</FchRef>
+          <RazonRef>COBRO ADMINISTRACION $0</RazonRef>
+        </Referencia>
+        <Referencia>
+          <NroLinRef>7</NroLinRef>
+          <TpoDocRef>OBS</TpoDocRef>
+          <FolioRef>OBSE8</FolioRef>
+          <FchRef>2016-02-29</FchRef>
+          <RazonRef>DESCUENTO P. DIESEL $0</RazonRef>
+        </Referencia>
+        <Referencia>
+          <NroLinRef>8</NroLinRef>
+          <TpoDocRef>OBS</TpoDocRef>
+          <FolioRef>OBSE9</FolioRef>
+          <FchRef>2016-02-29</FchRef>
+          <RazonRef>CARGO POR DESPACHO $0</RazonRef>
+        </Referencia>
+        <TED version="1.0">
+          <DD>
+            <RE>99520000-7</RE>
+            <TD>33</TD>
+            <F>4210971</F>
+            <FE>2016-02-29</FE>
+            <RR>76141730-4</RR>
+            <RSR>DILA LIMITADA</RSR>
+            <MNT>31853</MNT>
+            <IT1>Fecha-Guía-Rollo</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>99520000-7</RE>
+                <RS>COMPANIA DE PETROLEOS DE CHILE COPEC S A</RS>
+                <TD>33</TD>
+                <RNG>
+                  <D>4019698</D>
+                  <H>4219697</H>
+                </RNG>
+                <FA>2015-09-21</FA>
+                <RSAPK>
+                  <M>9/U1BwgdpIcSp91ywgc/caB8UUfrgIUbY0AloIY44J3QwCIZG3P8INSjnYfjGm6UbXqie5EZZSmDPbtrJQNloQ==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">jDAtr5GuFOlc8wb3ksz2sP5uMnX/WZDrWcyPb5kxgKkG+ld3qTZzTT/4D4m0Ey+kNQygldWlnY/g92vTKrhf3Q==</FRMA>
+            </CAF>
+            <TSTED>2016-03-05T12:13:41</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">uMCNwGvpwgP+2xgs6rZMyrFpFKadkwmfRyOzj+D2CTmjYR9BdWIOcJps9o9itEzb4JRc8W1JpsTf
+odh85vyQIA==</FRMT>
+        </TED>
+        <TmstFirma>2016-03-05T12:13:41</TmstFirma>
+      </Documento>
+      <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+	<SignedInfo>
+		<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+		<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+		<Reference URI="#T33F4210971">
+			<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+			<DigestValue>fePCniyW9g+5l4sG6qSXxuVWrpU=</DigestValue>
+		</Reference>
+	</SignedInfo>
+	<SignatureValue>JIEp4auCojhBLgcz43f6dzgfRK8cMjbXsl91F3p0m381R29f4VtFI9VHvUB9K0TzEij2/Yc9WtUU
+xrVSVpj43SPm/dBpMlXThykaVbvQtVxcflUqzxr30OPUseV2Xg0m5kOH/qjgLB5LmqUIAcQlcLjm
+3qy7zapXX6YkheATzdxaamVBtDzg/KxRkopoxbg/RJ4h0Pi4dCdUxuhnQ2VcYkoS9nVTHNlV6XM/
+EBnhAJO5rUtFXjd6zfjJ9A0dHvU8KTrqnllNZCqtB9BIOs+w0AQuUWe0c9i4Od2OqlX2a4/0Exds
+DdQD+CZ+70AFxZwxb01qG2Ly3/MntRT9rgcUww==</SignatureValue>
+	<KeyInfo>
+		<KeyValue>
+			<RSAKeyValue>
+				<Modulus>55bog+PaEXbKrlae7xhM5QujZHuk+FcrOD8liATZySC6ta1ePSNFSGHrjxD5bLUChgJJTGo8fCQT
+0m6VMWj4tzFPOLMPQZQ/xHJRUauRw2jGxy6w7uwUwbyvIXPhRXBcrewIgYE/p4KND0QWuU1FYydu
+h5+OnDf/I70Pr9ZHBC5Kbw07PA2g9qocJSHDck/C26D556bFkojb1ZTdTeLiLe2TwBGbQJLWGdNY
+6nLtBxxyqsw7mSDchamprxOw6LZkM7JKur066EdB2zKjLydfEsZMnokyhByuha1ytdSz1GBWEDUK
+wHMR3t4YRwmrsV3nhg6K+2ZzHKQx4ux7dyFhDw==</Modulus>
+				<Exponent>AQAB</Exponent>
+			</RSAKeyValue>
+		</KeyValue>
+		<X509Data>
+			<X509Certificate>MIIGVzCCBT+gAwIBAgICCPYwDQYJKoZIhvcNAQEFBQAwgaYxCzAJBgNVBAYTAkNMMRgwFgYDVQQK
+Ew9BY2VwdGEuY29tIFMuQS4xSDBGBgNVBAMTP0FjZXB0YS5jb20gQXV0b3JpZGFkIENlcnRpZmlj
+YWRvcmEgQ2xhc2UgMyBQZXJzb25hIE5hdHVyYWwgLSBHMzEeMBwGCSqGSIb3DQEJARYPaW5mb0Bh
+Y2VwdGEuY29tMRMwEQYDVQQFEwo5NjkxOTA1MC04MB4XDTE1MDYxOTE0NDU1NloXDTE4MDYxOTE0
+NDU1NlowgYkxCzAJBgNVBAYTAkNMMRUwEwYDVQQMEwxDT05UIEFVRElUT1IxKzApBgNVBAMTIlNF
+UkdJTyBHQUJSSUVMIFZJTExBR1JBIFZJTExBTE9CT1MxITAfBgkqhkiG9w0BCQEWEnN2aWxsYWdy
+YUBjb3BlYy5jbDETMBEGA1UEBRMKMTA3MTMzNTUtMDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAOeW6IPj2hF2yq5Wnu8YTOULo2R7pPhXKzg/JYgE2ckgurWtXj0jRUhh648Q+Wy1AoYC
+SUxqPHwkE9JulTFo+LcxTzizD0GUP8RyUVGrkcNoxscusO7sFMG8ryFz4UVwXK3sCIGBP6eCjQ9E
+FrlNRWMnboefjpw3/yO9D6/WRwQuSm8NOzwNoPaqHCUhw3JPwtug+eemxZKI29WU3U3i4i3tk8AR
+m0CS1hnTWOpy7QcccqrMO5kg3IWpqa8TsOi2ZDOySrq9OuhHQdsyoy8nXxLGTJ6JMoQcroWtcrXU
+s9RgVhA1CsBzEd7eGEcJq7Fd54YOivtmcxykMeLse3chYQ8CAwEAAaOCAqgwggKkMB8GA1UdIwQY
+MBaAFLa7ixO5N2ff8E3H1bhWmd9mmpHOMB0GA1UdDgQWBBRH11km9udUAYfDsiHu+lvCfaLw8jAL
+BgNVHQ8EBAMCBPAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMBEGCWCGSAGG+EIBAQQE
+AwIFoDCB8wYDVR0gBIHrMIHoMIHlBgorBgEEAbVrh2oCMIHWMCgGCCsGAQUFBwIBFhxodHRwOi8v
+d3d3LmFjZXB0YS5jb20vQ1BTLUczMIGpBggrBgEFBQcCAjCBnDAWFg9BY2VwdGEuY29tIFMuQS4w
+AwIBAhqBgUVsIHRpdHVsYXIgaGEgc2lkbyB2YWxpZGFkbyBlbiBmb3JtYSBwcmVzZW5jaWFsLCBx
+dWVkYW5kbyBoYWJpbGl0YWRvIGVsIENlcnRpZmljYWRvIHBhcmEgdXNvIHRyaWJ1dGFyaW8sIHBh
+Z29zLCBjb21lcmNpbyB5IG90cm9zLjBaBgNVHRIEUzBRoBgGCCsGAQQBwQECoAwWCjk2OTE5MDUw
+LTigJAYIKwYBBQUHCAOgGDAWDAo5NjkxOTA1MC04BggrBgEEAcEBAoEPaW5mb0BhY2VwdGEuY29t
+MF0GA1UdEQRWMFSgGAYIKwYBBAHBAQGgDBYKMTA3MTMzNTUtMKAkBggrBgEFBQcIA6AYMBYMCjEw
+NzEzMzU1LTAGCCsGAQQBwQECgRJzdmlsbGFncmFAY29wZWMuY2wwPAYIKwYBBQUHAQEEMDAuMCwG
+CCsGAQUFBzABhiBodHRwOi8vb2NzcC5hY2VwdGEuY29tL0NsYXNlMy1HMzA0BgNVHR8ELTArMCmg
+J6AlhiNodHRwOi8vY3JsLmFjZXB0YS5jb20vQ2xhc2UzLUczLmNybDANBgkqhkiG9w0BAQUFAAOC
+AQEAHz1erJBrnYdO/Ovjr7feZ062H0/PVHGYjjtX3rwn/ZZcDJJOXzIbUrNjemOybnNKKSzAMXv5
+R62m51spk6RjKgXrMCv2MgsnCt4Jsl4nNDjk+E2L+LyJ9MUnWI+ahTGXvhtwrDgR/9F6DAH7qncU
+zXSYJ4AOiLnhZxtlcvAI94o0gqO4id3jXf1/D4Jw1F3KrZ0uJ8ahjI/whUH2iq4iflmd5FQ1EZ0A
+W6HU+0VgfcC1MSCv335AgQfglEqPdz+CpEepi2+i3cou1cOhg7A96JCZTm9+yDss4PxO1ey95Glt
+cU7wdMW7asRWj1ReDyEpzgXctRl27ulaoA+bQwJohg==</X509Certificate>
+		</X509Data>
+	</KeyInfo>
+</Signature>
+    </DTE></SetDTE>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod><Reference URI="#EnvioDTE-99520000-7-76141730-4-20160307-065544-7DCD6805"><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod><DigestValue>kAj+8Pn9/z8DiT2XLHpHM3JcS4A=</DigestValue></Reference></SignedInfo><SignatureValue>hwr8bc+LDsFDjxn3JjzjoDr1OaDPpWGHadg3voIrzvNJhqZ/ODB1PHO1JzRA9Tr5lt8fM+oImHMJ
+vI8z7s6Y7phHwjGDpSgigfRufHbAE+r2rde9ejzwPaIQMKO3/oYAy4gEYNGwcRk8GtWlpL8UA47e
+9eSX8eGPayRf3kBTM50W+2BIdl/42g2JU21yLX6fv0ooQhqkZ7hcHqIGYPCZULhePn3l9DzTrJ/x
+NevBykTbt2a77ehSwMRtsuyt+c4vfFmuigyKEjO826yGXAj2TcY+cCTpnLKgTg7nnkPoOmLjs+Uq
+nKFCwLTQcw4YT1aZ+XHCIETyYUWBaa9W0ZBs8Q==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wISSvvLR2F1BVmTYUp+vhvQQ0b43fprKd7mV3saIJKt/E0nuG4wWI/7lYnN5D1Ropn1Hvr4ABGiv
+anjO5CmdAtLm6v0nVm6wL/mibATDPytXfaUwMI9R8OXIvKKkAi6Z4TP2k/BTC1kIkkCbHAbcSX59
+wag0ayqNU4McdXzpjIV9YeCSezc7BmNwv3cFIpU8bSB5sF7BB3CCvvXm6EgH5Ul3XoDXztNi/B48
+t3SxSs/Ho9uUXdRFTkmaoF4nNpoHV+rLgs5D82xm8UyJyl5C5Y7EndzHzCz4Bq+GbPQuZcsba2Ol
+mblXUI5tZshDQg5UMxQ5n94QCkqMaXotZHDbXw==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIGUDCCBTigAwIBAgICFuEwDQYJKoZIhvcNAQEFBQAwgaYxCzAJBgNVBAYTAkNMMRgwFgYDVQQK
+Ew9BY2VwdGEuY29tIFMuQS4xSDBGBgNVBAMTP0FjZXB0YS5jb20gQXV0b3JpZGFkIENlcnRpZmlj
+YWRvcmEgQ2xhc2UgMyBQZXJzb25hIE5hdHVyYWwgLSBHMzEeMBwGCSqGSIb3DQEJARYPaW5mb0Bh
+Y2VwdGEuY29tMRMwEQYDVQQFEwo5NjkxOTA1MC04MB4XDTE1MDkwMzE5MzYxOFoXDTE4MDkwMzE5
+MzYxOFowgYMxCzAJBgNVBAYTAkNMMRswGQYDVQQMExJJTkcgQ0lWIElORFVTVFJJQUwxHzAdBgNV
+BAMTFlBBQkxPIElaUVVJRVJETyBXQUxLRVIxIjAgBgkqhkiG9w0BCQEWE3BpenF1aWVyZG9AaS1t
+ZWQuY2wxEjAQBgNVBAUTCTU1NDQ3MDAtNDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AMCEkr7y0dhdQVZk2FKfr4b0ENG+N36ayne5ld7GiCSrfxNJ7huMFiP+5WJzeQ9UaKZ9R76+AARo
+r2p4zuQpnQLS5ur9J1ZusC/5omwEwz8rV32lMDCPUfDlyLyipAIumeEz9pPwUwtZCJJAmxwG3El+
+fcGoNGsqjVODHHV86YyFfWHgkns3OwZjcL93BSKVPG0gebBewQdwgr715uhIB+VJd16A187TYvwe
+PLd0sUrPx6PblF3URU5JmqBeJzaaB1fqy4LOQ/NsZvFMicpeQuWOxJ3cx8ws+Aavhmz0LmXLG2tj
+pZm5V1CObWbIQ0IOVDMUOZ/eEApKjGl6LWRw218CAwEAAaOCAqcwggKjMB8GA1UdIwQYMBaAFLa7
+ixO5N2ff8E3H1bhWmd9mmpHOMB0GA1UdDgQWBBThlZDUXZySStYb5Clb4H40f84qZTALBgNVHQ8E
+BAMCBPAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMBEGCWCGSAGG+EIBAQQEAwIFoDCB
+8wYDVR0gBIHrMIHoMIHlBgorBgEEAbVrh2oCMIHWMCgGCCsGAQUFBwIBFhxodHRwOi8vd3d3LmFj
+ZXB0YS5jb20vQ1BTLUczMIGpBggrBgEFBQcCAjCBnDAWFg9BY2VwdGEuY29tIFMuQS4wAwIBAhqB
+gUVsIHRpdHVsYXIgaGEgc2lkbyB2YWxpZGFkbyBlbiBmb3JtYSBwcmVzZW5jaWFsLCBxdWVkYW5k
+byBoYWJpbGl0YWRvIGVsIENlcnRpZmljYWRvIHBhcmEgdXNvIHRyaWJ1dGFyaW8sIHBhZ29zLCBj
+b21lcmNpbyB5IG90cm9zLjBaBgNVHRIEUzBRoBgGCCsGAQQBwQECoAwWCjk2OTE5MDUwLTigJAYI
+KwYBBQUHCAOgGDAWDAo5NjkxOTA1MC04BggrBgEEAcEBAoEPaW5mb0BhY2VwdGEuY29tMFwGA1Ud
+EQRVMFOgFwYIKwYBBAHBAQGgCxYJNTU0NDcwMC00oCMGCCsGAQUFBwgDoBcwFQwJNTU0NDcwMC00
+BggrBgEEAcEBAoETcGl6cXVpZXJkb0BpLW1lZC5jbDA8BggrBgEFBQcBAQQwMC4wLAYIKwYBBQUH
+MAGGIGh0dHA6Ly9vY3NwLmFjZXB0YS5jb20vQ2xhc2UzLUczMDQGA1UdHwQtMCswKaAnoCWGI2h0
+dHA6Ly9jcmwuYWNlcHRhLmNvbS9DbGFzZTMtRzMuY3JsMA0GCSqGSIb3DQEBBQUAA4IBAQBfeUD1
+FRswhMPDx/oEX6zSCdkkNMmo+OYfKVBJQoz2YE7Uvag7tVFJibRYVlLFQY4AwkSkUizDpbWQRsfu
+NmOU6Ny91/8l9bSya/1LJV/J4XCQTC66BmQ0/pWTupTLGOHuIRKkr5Jtp2Sef8XhcMCjDJZMp6ij
+rMnU9rlrpXCUWbEQ9JdndR9pMcKy0V8cXHUZ+T5fLoR3obPf5y1XUiH+OoDRGXp6MEA/1LOcqlDE
+TsfOOpZn7alwul6//rY7u3VkuxCk/czuxtMQH+l6X/gaJ1UXpTKkOimfymbKrhAKC5gRbuktxWLa
+d/bzKt5kHH32lfxSTwfw/WBxuE9BVjuX</X509Certificate></X509Data></KeyInfo></Signature></EnvioDTE>

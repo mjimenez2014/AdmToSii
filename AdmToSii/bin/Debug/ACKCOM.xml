@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><RespuestaDTE xmlns="http://www.sii.cl/SiiDte" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+    <Resultado ID="R5487968">
+        <Caratula version="1.0">
+            <RutResponde>78627210-6</RutResponde>
+            <RutRecibe>76141730-4</RutRecibe>
+            <IdRespuesta>5487968</IdRespuesta>
+            <NroDetalles>1</NroDetalles>
+            <NmbContacto>TOttus</NmbContacto>
+            <MailContacto>OBORGEL@TOTTUS.CL</MailContacto>
+            <TmstFirmaResp>2016-03-03T08:11:39</TmstFirmaResp>
+        </Caratula>
+        <ResultadoDTE>
+            <TipoDTE>33</TipoDTE>
+            <Folio>218</Folio>
+            <FchEmis>2016-03-01</FchEmis>
+            <RUTEmisor>76141730-4</RUTEmisor>
+            <RUTRecep>78627210-6</RUTRecep>
+            <MntTotal>795943</MntTotal>
+            <CodEnvio>17227936</CodEnvio>
+            <EstadoDTE>0</EstadoDTE>
+            <EstadoDTEGlosa>Aceptado OK</EstadoDTEGlosa>
+        </ResultadoDTE>
+    </Resultado>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#R5487968"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>qZtw69TPvoDzAHHP+5OETwkRWR0=</DigestValue></Reference></SignedInfo><SignatureValue>gMx0gorHo9txIwipPMRb/z5bLekP4sXuEFA4nYgbrGZ18u0Flvpt5to0ePvJwQT/mpTKXwv42BIa
+yoTYYg0T+wxk1t3w4gKw7ZNVF4MDPbu2JpoWoPaPvhtBE5P+Rdo1ZyhilxLJnvzWoMqMjxIXwfnc
+I9YPgkDK/iv0wsn3oak=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rKSeWWOxTu3Li4qSBd0wkjO2/pMZ9r0cvKJ7E2yAUkYL22SilbYMHTw+AKDoa+dfpSSzgc1eBc9L
+6sj2NDvcplgJMmIhuMrPT+Qt3JlkD4x5THqQ4DVNEYhnkqPB4dDdcHHyUt/G85pNcRuUquVeszco
+QrczkMcFT+yhJtOaHdM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIGCzCCBPOgAwIBAgIKEhflnQAAAABElDANBgkqhkiG9w0BAQUFADCB0jELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQD
+EydFLUNFUlRDSElMRSBDQSBGSVJNQSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEW
+GHNjbGllbnRlc0BlLWNlcnRjaGlsZS5jbDAeFw0xMjA4MzExODI3MjBaFw0xNTA4MzExODI3MjBa
+MIHKMQswCQYDVQQGEwJDTDEWMBQGA1UECBMNTUVUUk9QT0xJVEFOQTERMA8GA1UEBxMIU2FudGlh
+Z28xIjAgBgNVBAoTGUhJUEVSTUVSQ0FET1MgVE9UVFVTIFMuQS4xGjAYBgNVBAsTEUdFUkVOQ0lB
+IEZJTkFOWkFTMSYwJAYDVQQDEx1PUkxBTkRPIEFSSUVMIEJPUkdFTCBBR1VJTEVSQTEoMCYGCSqG
+SIb3DQEJARYZRFFVSU5UQU5JTExBQEZBTEFCRUxMQS5DTDCBnzANBgkqhkiG9w0BAQEFAAOBjQAw
+gYkCgYEArKSeWWOxTu3Li4qSBd0wkjO2/pMZ9r0cvKJ7E2yAUkYL22SilbYMHTw+AKDoa+dfpSSz
+gc1eBc9L6sj2NDvcplgJMmIhuMrPT+Qt3JlkD4x5THqQ4DVNEYhnkqPB4dDdcHHyUt/G85pNcRuU
+quVeszcoQrczkMcFT+yhJtOaHdMCAwEAAaOCAmswggJnMAsGA1UdDwQEAwIE8DAdBgNVHQ4EFgQU
+ds1eLgQKPX6Uf+a3UNOBBv+xsgcwHwYDVR0jBBgwFoAUeOE+n9ISs3o8jc0wDlOzQykHs1UwPgYD
+VR0fBDcwNTAzoDGgL4YtaHR0cDovL2NybC5lLWNlcnRjaGlsZS5jbC9lY2VydGNoaWxlY2FGRVMu
+Y3JsMD0GCSsGAQQBgjcVBwQwMC4GJisGAQQBgjcVCILcgy+Fk4xmhdWdF4Li3CeB7+w8YYHLnhSG
+qIJYAgFkAgEDMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYKMDk4Nzg3MjQtMDAjBgNVHRIEHDAa
+oBgGCCsGAQQBwQECoAwWCjk2OTI4MTgwLTUwggFNBgNVHSAEggFEMIIBQDCCATwGCCsGAQQBw1IF
+MIIBLjAtBggrBgEFBQcCARYhaHR0cDovL3d3dy5lLWNlcnRjaGlsZS5jbC9DUFMuaHRtMIH8Bggr
+BgEFBQcCAjCB7x6B7ABDAGUAcgB0AGkAZgBpAGMAYQBkAG8AIABGAGkAcgBtAGEAIABTAGkAbQBw
+AGwAZQAuACAASABhACAAcwBpAGQAbwAgAHYAYQBsAGkAZABhAGQAbwAgAGUAbgAgAGYAbwByAG0A
+YQAgAHAAcgBlAHMAZQBuAGMAaQBhAGwALAAgAHEAdQBlAGQAYQBuAGQAbwAgAGgAYQBiAGkAbABp
+AHQAYQBkAG8AIABlAGwAIABDAGUAcgB0AGkAZgBpAGMAYQBkAG8AIABwAGEAcgBhACAAdQBzAG8A
+IAB0AHIAaQBiAHUAdABhAHIAaQBvMA0GCSqGSIb3DQEBBQUAA4IBAQBKucKsHgC19SBCykMJyCeW
+AedvK/6sBa8LLf2f7DAzi4YnvxQgYT+8y84Gnv2Hf16bgVho/Xz7553DMz9QxkiUVa/2RsfICrp7
+H5nLiSdZSlOSF5mzaCixPgBcAyjNnaG0Mehg5A1NpushqeYETxYGZwWumQb95ssY0p4Y5CncfOIu
+1+cf0HKTjAL53EX3LEnCO1QcGJOYPzZjEmpaRBX9095mxGxh44iMW6lt2L/DpZASJyzF/hD7LP5F
+5y9T5lxzwX08Lj4RDfoLYTqD5Y4SC37GH2wF8KItlvXA2iyozGp3YPUPn7uyNmmmQMAYydaTHQAd
+8qPuMHJGgKUUS0v9</X509Certificate></X509Data></KeyInfo></Signature></RespuestaDTE>

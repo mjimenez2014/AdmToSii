@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{91F1D493-5822-4447-98B1-B85B95A28396}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Vista</RootNamespace>
+    <AssemblyName>Vista</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\IatDteBridge\IatDteBridge\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>..\..\IatDteBridge\IatDteBridge\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xtra">
+      <HintPath>..\..\IatDteBridge\IatDteBridge\itextsharp.xtra.dll</HintPath>
+    </Reference>
+    <Reference Include="Mail, Version=3.0.16061.1530, Culture=neutral, PublicKeyToken=6dc438ab78a525b3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Limilabs\Mail\Redistributables\Net20\Mail.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AprobacionComercial.cs" />
+    <Compile Include="ClientPop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientPop.Designer.cs">
+      <DependentUpon>ClientPop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConnectSii.cs" />
+    <Compile Include="Firmador.cs" />
+    <Compile Include="frmEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmpresa.Designer.cs">
+      <DependentUpon>frmEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProveedores.Designer.cs">
+      <DependentUpon>frmProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrSeedService.cs" />
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInicio.Designer.cs">
+      <DependentUpon>FrmInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FuncionesComunes.cs" />
+    <Compile Include="GeneraLibroCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneraLibroCompras.Designer.cs">
+      <DependentUpon>GeneraLibroCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneraLibroVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneraLibroVenta.Designer.cs">
+      <DependentUpon>GeneraLibroVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetTokenFromSeedService.cs" />
+    <Compile Include="ImportaLibroCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportaLibroCompra.Designer.cs">
+      <DependentUpon>ImportaLibroCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportaLibroVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportaLibroVenta.Designer.cs">
+      <DependentUpon>ImportaLibroVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pdf.cs" />
+    <Compile Include="ProcesoIat.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="QueryEstUpService.cs" />
+    <Compile Include="ReciboMercaderia.cs" />
+    <Compile Include="ReimpThermal.cs" />
+    <Compile Include="RespuestaEnvioDte.cs" />
+    <Compile Include="Thermal.cs" />
+    <Compile Include="Timbre.cs" />
+    <Compile Include="xmlPaquete.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Modelo\Modelo.csproj">
+      <Project>{C6474259-1675-4987-813E-8E790D0992E8}</Project>
+      <Name>Modelo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ClientPop.resx">
+      <DependentUpon>ClientPop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmpresa.resx">
+      <DependentUpon>frmEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProveedores.resx">
+      <DependentUpon>frmProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInicio.resx">
+      <DependentUpon>FrmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneraLibroCompras.resx">
+      <DependentUpon>GeneraLibroCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneraLibroVenta.resx">
+      <DependentUpon>GeneraLibroVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportaLibroCompra.resx">
+      <DependentUpon>ImportaLibroCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportaLibroVenta.resx">
+      <DependentUpon>ImportaLibroVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

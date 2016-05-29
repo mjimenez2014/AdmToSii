@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+<SetDTE ID="EnvioDTE-81201000-K-76141730-4-20160306-080058-57F129C9">
+<Caratula version="1.0">
+<RutEmisor>81201000-K</RutEmisor>
+<RutEnvia>5544700-4</RutEnvia>
+<RutReceptor>76141730-4</RutReceptor>
+<FchResol>2005-03-22</FchResol>
+<NroResol>36</NroResol>
+<TmstFirmaEnv>2016-03-06T08:00:58</TmstFirmaEnv>
+<SubTotDTE>
+<TpoDTE>33</TpoDTE>
+<NroDTE>1</NroDTE>
+</SubTotDTE>
+</Caratula>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+      <Documento ID="T33F4722110">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>33</TipoDTE>
+            <Folio>4722110</Folio>
+            <FchEmis>2016-02-29</FchEmis>
+            <FchVenc>2016-02-29</FchVenc>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>81201000-K</RUTEmisor>
+            <RznSoc>Cencosud Retail S.A</RznSoc>
+            <GiroEmis>CERSA</GiroEmis>
+            <Acteco>521111</Acteco>
+            <Sucursal>CASA MATRIZ</Sucursal>
+            <CdgSIISucur>4980050</CdgSIISucur>
+            <DirOrigen>AVDA. PRESIDENTE KENNEDY 9001 4to. Nivel</DirOrigen>
+            <CmnaOrigen>LAS CONDES</CmnaOrigen>
+            <CiudadOrigen>SANTIAGO</CiudadOrigen>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>76141730-4</RUTRecep>
+            <CdgIntRecep>0076141730</CdgIntRecep>
+            <RznSocRecep>COM Y DIST DE PROD. ALIMENT DILA LT</RznSocRecep>
+            <GiroRecep>ELABORACION DE OTROS PRODUCTOS ALIMENTIC</GiroRecep>
+            <DirRecep>AV ANTILLANCA SUR 611 C</DirRecep>
+            <CmnaRecep>PUDAHUEL</CmnaRecep>
+            <CiudadRecep>SANTIAGO</CiudadRecep>
+          </Receptor>
+          <Totales>
+            <MntNeto>1864383</MntNeto>
+            <TasaIVA>19.00</TasaIVA>
+            <IVA>354233</IVA>
+            <MntTotal>2218616</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <IndExe>4</IndExe>
+          <NmbItem>MES DE Febrero 2016</NmbItem>
+          <DscItem></DscItem>
+          <QtyItem>1</QtyItem>
+          <UnmdItem>UN</UnmdItem>
+          <PrcItem>1</PrcItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>2</NroLinDet>
+          <IndExe>4</IndExe>
+          <NmbItem>ACUERDO N° 190502</NmbItem>
+          <DscItem></DscItem>
+          <QtyItem>1</QtyItem>
+          <UnmdItem>UN</UnmdItem>
+          <PrcItem>1</PrcItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>3</NroLinDet>
+          <NmbItem>Cláusula Descuento Fijo 8,00 %</NmbItem>
+          <DscItem></DscItem>
+          <QtyItem>1</QtyItem>
+          <UnmdItem>UN</UnmdItem>
+          <PrcItem>1864383</PrcItem>
+          <MontoItem>1864383</MontoItem>
+        </Detalle>
+        <TED version="1.0">
+          <DD>
+            <RE>81201000-K</RE>
+            <TD>33</TD>
+            <F>4722110</F>
+            <FE>2016-02-29</FE>
+            <RR>76141730-4</RR>
+            <RSR>COM Y DIST DE PROD. ALIMENT DILA LT</RSR>
+            <MNT>2218616</MNT>
+            <IT1>MES DE Febrero 2016</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>81201000-K</RE>
+                <RS>CENCOSUD RETAIL S.A.</RS>
+                <TD>33</TD>
+                <RNG>
+                  <D>4718511</D>
+                  <H>4728510</H>
+                </RNG>
+                <FA>2016-02-02</FA>
+                <RSAPK>
+                  <M>tXqV61/aCtLaD6HAu6R1OTsgYMel4z6KUjHdGAeu8zHlKuSplTpMJRwSqLBgdRPNCvMvlitB14V/4ysfL7+t7w==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">ResNyqk9tKW/l6Pl7lRiKiME+8xWcd2QdhXInyH8XfQw77acJPvbSZZXpX0bfTFclxw37j5UDQE68VwCYrp6Ew==</FRMA>
+            </CAF>
+            <TSTED>2016-03-03T11:50:43</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">jjZREvZ2zLmWNBVRzUvSicjLdeYPwCd2xDO1NBUEmhN/YOqrkG1Y5KmIGO7/oy6IQXiKnDUIym62
+pQlZw6530g==</FRMT>
+        </TED>
+        <TmstFirma>2016-03-03T11:50:43</TmstFirma>
+      </Documento>
+      <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+	<SignedInfo>
+		<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+		<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+		<Reference URI="#T33F4722110">
+			<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+			<DigestValue>UCLOPryJ22twj4mZHZiHKn62hrk=</DigestValue>
+		</Reference>
+	</SignedInfo>
+	<SignatureValue>ItCOmPkS4FyS6JoJHs/hTiQo2oZGe2miXjhG266xAXWtYN2wqaa2JklHYKnvqs1E01XHrPCkW0lS
+2gJ7YBUNvosfn44aWXu5IsjaYnOJ6djOBs8pkL6R1o8ygJvrJ+1/5cJjDotZeGM2lg9nmOx3f1gl
+3Z7+EWk44TkJakWVbzfUoMThY8+Z0TCoUe6OYq1Lnl+Hy90Bfjl9DP606sbBZRpMMUSAUVY39lc2
+3OxDeUm4/SYixx011w90XNLAU90CMywKCZZRMTvNDtVCZ0wkkJ+jPkMGk7MzH8xq/pqlBOXOtV6S
+eEwbmhH7+ZjBzHpnGyk1l9mCiWjSH06MySnx2w==</SignatureValue>
+	<KeyInfo>
+		<KeyValue>
+			<RSAKeyValue>
+				<Modulus>hyQYMgoP96GHgmnq2+2QXGLS1Zp50NN1pImqNF6yKEyqBG3Fbisa7asRmvuZtOnRLBkrLusp0nna
+aN/iyV/AOuPWgbGFxYqgDl4f8AH96FI7i+lB2E6wf3VyTNZAGzcVHPLQyZ4KV8d/lCpFsLpYQmiR
+HIqnqxPCcyMs7HNwIylkyGTZm/ckHG3E9NpnOnge3r61Eq0T8uIH65LFzBgvfSwnwbP9dINveSot
+J1zd4VkmHBUGfoGxYu8XY5r1Bp2qXdeF/Oa8YqddwSiUGZD1u2CapGde/05Bet76hTrFgVVlhT/j
+C9sHl1LTIkdrWtZX0VmftlBmRGxdaBvzLen/VQ==</Modulus>
+				<Exponent>AQAB</Exponent>
+			</RSAKeyValue>
+		</KeyValue>
+		<X509Data>
+			<X509Certificate>MIIF6TCCBNGgAwIBAgICGc0wDQYJKoZIhvcNAQEFBQAwgaYxCzAJBgNVBAYTAkNMMRgwFgYDVQQK
+Ew9BY2VwdGEuY29tIFMuQS4xSDBGBgNVBAMTP0FjZXB0YS5jb20gQXV0b3JpZGFkIENlcnRpZmlj
+YWRvcmEgQ2xhc2UgMiBQZXJzb25hIE5hdHVyYWwgLSBHMzEeMBwGCSqGSIb3DQEJARYPaW5mb0Bh
+Y2VwdGEuY29tMRMwEQYDVQQFEwo5NjkxOTA1MC04MB4XDTE2MDExODE1NTgzMloXDTE5MDExODE1
+NTgzMlowgZIxCzAJBgNVBAYTAkNMMRgwFgYDVQQMEw9QRVJTT05BIE5BVFVSQUwxKDAmBgNVBAMT
+H1JPRFJJR08gQ1JJU1RJQU4gTEFSUkFJTiBLQVBMQU4xKjAoBgkqhkiG9w0BCQEWG3JvZHJpZ28u
+bGFycmFpbkBjZW5jb3N1ZC5jbDETMBEGA1UEBRMKMTA5NzMxMzktMDCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAIckGDIKD/ehh4Jp6tvtkFxi0tWaedDTdaSJqjResihMqgRtxW4rGu2r
+EZr7mbTp0SwZKy7rKdJ52mjf4slfwDrj1oGxhcWKoA5eH/AB/ehSO4vpQdhOsH91ckzWQBs3FRzy
+0MmeClfHf5QqRbC6WEJokRyKp6sTwnMjLOxzcCMpZMhk2Zv3JBxtxPTaZzp4Ht6+tRKtE/LiB+uS
+xcwYL30sJ8Gz/XSDb3kqLSdc3eFZJhwVBn6BsWLvF2Oa9Qadql3XhfzmvGKnXcEolBmQ9btgmqRn
+Xv9OQXre+oU6xYFVZYU/4wvbB5dS0yJHa1rWV9FZn7ZQZkRsXWgb8y3p/1UCAwEAAaOCAjEwggIt
+MB8GA1UdIwQYMBaAFEAkGj2pMXqFd3o9nnKTOYTlQDgZMB0GA1UdDgQWBBSmYGQBII2w6e0u0Fbb
+MvVPcCCVDDALBgNVHQ8EBAMCBPAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMBEGCWCG
+SAGG+EIBAQQEAwIFoDBuBgNVHSAEZzBlMGMGCisGAQQBtWuHagowVTAoBggrBgEFBQcCARYcaHR0
+cDovL3d3dy5hY2VwdGEuY29tL0NQUy1HMzApBggrBgEFBQcCAjAdMBYWD0FjZXB0YS5jb20gUy5B
+LjADAgEJGgNUQkQwWgYDVR0SBFMwUaAYBggrBgEEAcEBAqAMFgo5NjkxOTA1MC04oCQGCCsGAQUF
+BwgDoBgwFgwKOTY5MTkwNTAtOAYIKwYBBAHBAQKBD2luZm9AYWNlcHRhLmNvbTBmBgNVHREEXzBd
+oBgGCCsGAQQBwQEBoAwWCjEwOTczMTM5LTCgJAYIKwYBBQUHCAOgGDAWDAoxMDk3MzEzOS0wBggr
+BgEEAcEBAoEbcm9kcmlnby5sYXJyYWluQGNlbmNvc3VkLmNsMD8GCCsGAQUFBwEBBDMwMTAvBggr
+BgEFBQcwAYYjaHR0cDovL29jc3AuYWNlcHRhLmNvbS9DbGFzZTNCaW8tRzMwNwYDVR0fBDAwLjAs
+oCqgKIYmaHR0cDovL2NybC5hY2VwdGEuY29tL0NsYXNlM0Jpby1HMy5jcmwwDQYJKoZIhvcNAQEF
+BQADggEBADCDeesrjKQxQSzOVp+uZjmzcSXUh+SXA2K7hASiYZLm7umb/dxrV2xCa6cWt/5rIQv8
+ivhqcu78ShBhH3h9NZitpqPeO2uhz7ZJ5nOp+kzOwYI71INJ28AyL6G8Z2X5eQqBRC63U0QsJ3f4
+AHdnJ5E+wwRNd4IKGvyf//7sPej0NTPDpAMvx401bmzkwJhMMGaSHrnrQxEqYAU6tu4qo4+QQmtJ
+T5wpvKsukHB2ahgbTaQv+hOOBj5r3KzkiiNCIMQP+N3OLRObIT6fQUpB+AhglyhgJlLbw/h+nPaz
+PY+WmtRG6PgABy8xRNo+M8/am9+zibTFg5dgyuDQ0XD6eoA=</X509Certificate>
+		</X509Data>
+	</KeyInfo>
+</Signature>
+    </DTE></SetDTE>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod><Reference URI="#EnvioDTE-81201000-K-76141730-4-20160306-080058-57F129C9"><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod><DigestValue>2j55fkrLh9S1VUfa18TJ9MnOVaA=</DigestValue></Reference></SignedInfo><SignatureValue>Xbc7KIHSLrVN0iYqfGF77ki//2PubFapf0WWnfwgcokziPsyy715gYrdfIq8ON2p6RQAKEVyAoBV
+iN8B+O5Dda6KyO4xio+Q5Fypyr/EouNQmds9LGCcE5c61YBla+kg5xJkPaKtzojQrzqepHtJOixZ
+A2F1ezmXg/ebz1oW9bHShWArFHB0x69dt7uBVeYG6ygcDiL0WqjPdukNDiMuHLsUJhR3YXvhbs/h
+1nitG5M+rVNtxMR/IEuMBSkpN4o7DekazIgX0Ham3JDmZHMUjCjy4Pc9BXcJTRqbhgvTrhLNZOCN
+Q9xd/4k/q1bga+y3vLkRIqIKFC0+jb+/JLV9SQ==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wISSvvLR2F1BVmTYUp+vhvQQ0b43fprKd7mV3saIJKt/E0nuG4wWI/7lYnN5D1Ropn1Hvr4ABGiv
+anjO5CmdAtLm6v0nVm6wL/mibATDPytXfaUwMI9R8OXIvKKkAi6Z4TP2k/BTC1kIkkCbHAbcSX59
+wag0ayqNU4McdXzpjIV9YeCSezc7BmNwv3cFIpU8bSB5sF7BB3CCvvXm6EgH5Ul3XoDXztNi/B48
+t3SxSs/Ho9uUXdRFTkmaoF4nNpoHV+rLgs5D82xm8UyJyl5C5Y7EndzHzCz4Bq+GbPQuZcsba2Ol
+mblXUI5tZshDQg5UMxQ5n94QCkqMaXotZHDbXw==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIGUDCCBTigAwIBAgICFuEwDQYJKoZIhvcNAQEFBQAwgaYxCzAJBgNVBAYTAkNMMRgwFgYDVQQK
+Ew9BY2VwdGEuY29tIFMuQS4xSDBGBgNVBAMTP0FjZXB0YS5jb20gQXV0b3JpZGFkIENlcnRpZmlj
+YWRvcmEgQ2xhc2UgMyBQZXJzb25hIE5hdHVyYWwgLSBHMzEeMBwGCSqGSIb3DQEJARYPaW5mb0Bh
+Y2VwdGEuY29tMRMwEQYDVQQFEwo5NjkxOTA1MC04MB4XDTE1MDkwMzE5MzYxOFoXDTE4MDkwMzE5
+MzYxOFowgYMxCzAJBgNVBAYTAkNMMRswGQYDVQQMExJJTkcgQ0lWIElORFVTVFJJQUwxHzAdBgNV
+BAMTFlBBQkxPIElaUVVJRVJETyBXQUxLRVIxIjAgBgkqhkiG9w0BCQEWE3BpenF1aWVyZG9AaS1t
+ZWQuY2wxEjAQBgNVBAUTCTU1NDQ3MDAtNDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AMCEkr7y0dhdQVZk2FKfr4b0ENG+N36ayne5ld7GiCSrfxNJ7huMFiP+5WJzeQ9UaKZ9R76+AARo
+r2p4zuQpnQLS5ur9J1ZusC/5omwEwz8rV32lMDCPUfDlyLyipAIumeEz9pPwUwtZCJJAmxwG3El+
+fcGoNGsqjVODHHV86YyFfWHgkns3OwZjcL93BSKVPG0gebBewQdwgr715uhIB+VJd16A187TYvwe
+PLd0sUrPx6PblF3URU5JmqBeJzaaB1fqy4LOQ/NsZvFMicpeQuWOxJ3cx8ws+Aavhmz0LmXLG2tj
+pZm5V1CObWbIQ0IOVDMUOZ/eEApKjGl6LWRw218CAwEAAaOCAqcwggKjMB8GA1UdIwQYMBaAFLa7
+ixO5N2ff8E3H1bhWmd9mmpHOMB0GA1UdDgQWBBThlZDUXZySStYb5Clb4H40f84qZTALBgNVHQ8E
+BAMCBPAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMBEGCWCGSAGG+EIBAQQEAwIFoDCB
+8wYDVR0gBIHrMIHoMIHlBgorBgEEAbVrh2oCMIHWMCgGCCsGAQUFBwIBFhxodHRwOi8vd3d3LmFj
+ZXB0YS5jb20vQ1BTLUczMIGpBggrBgEFBQcCAjCBnDAWFg9BY2VwdGEuY29tIFMuQS4wAwIBAhqB
+gUVsIHRpdHVsYXIgaGEgc2lkbyB2YWxpZGFkbyBlbiBmb3JtYSBwcmVzZW5jaWFsLCBxdWVkYW5k
+byBoYWJpbGl0YWRvIGVsIENlcnRpZmljYWRvIHBhcmEgdXNvIHRyaWJ1dGFyaW8sIHBhZ29zLCBj
+b21lcmNpbyB5IG90cm9zLjBaBgNVHRIEUzBRoBgGCCsGAQQBwQECoAwWCjk2OTE5MDUwLTigJAYI
+KwYBBQUHCAOgGDAWDAo5NjkxOTA1MC04BggrBgEEAcEBAoEPaW5mb0BhY2VwdGEuY29tMFwGA1Ud
+EQRVMFOgFwYIKwYBBAHBAQGgCxYJNTU0NDcwMC00oCMGCCsGAQUFBwgDoBcwFQwJNTU0NDcwMC00
+BggrBgEEAcEBAoETcGl6cXVpZXJkb0BpLW1lZC5jbDA8BggrBgEFBQcBAQQwMC4wLAYIKwYBBQUH
+MAGGIGh0dHA6Ly9vY3NwLmFjZXB0YS5jb20vQ2xhc2UzLUczMDQGA1UdHwQtMCswKaAnoCWGI2h0
+dHA6Ly9jcmwuYWNlcHRhLmNvbS9DbGFzZTMtRzMuY3JsMA0GCSqGSIb3DQEBBQUAA4IBAQBfeUD1
+FRswhMPDx/oEX6zSCdkkNMmo+OYfKVBJQoz2YE7Uvag7tVFJibRYVlLFQY4AwkSkUizDpbWQRsfu
+NmOU6Ny91/8l9bSya/1LJV/J4XCQTC66BmQ0/pWTupTLGOHuIRKkr5Jtp2Sef8XhcMCjDJZMp6ij
+rMnU9rlrpXCUWbEQ9JdndR9pMcKy0V8cXHUZ+T5fLoR3obPf5y1XUiH+OoDRGXp6MEA/1LOcqlDE
+TsfOOpZn7alwul6//rY7u3VkuxCk/czuxtMQH+l6X/gaJ1UXpTKkOimfymbKrhAKC5gRbuktxWLa
+d/bzKt5kHH32lfxSTwfw/WBxuE9BVjuX</X509Certificate></X509Data></KeyInfo></Signature></EnvioDTE>

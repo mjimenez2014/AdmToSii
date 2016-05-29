@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE version="1.0" xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+  <SetDTE ID="ID96590620-7__1__33__25388">
+    <Caratula version="1.0">
+      <RutEmisor>96590620-7</RutEmisor>
+      <RutEnvia>14681596-0</RutEnvia>
+      <RutReceptor>76141730-4</RutReceptor>
+      <FchResol>2011-09-29</FchResol>
+      <NroResol>113</NroResol>
+      <TmstFirmaEnv>2016-03-07T07:53:13</TmstFirmaEnv>
+      
+    <SubTotDTE><TpoDTE>33</TpoDTE><NroDTE>1</NroDTE></SubTotDTE></Caratula>
+    
+  <DTE version="1.0">
+      <Documento ID="F25388T33">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>33</TipoDTE>
+            <Folio>25388</Folio>
+            <FchEmis>2016-03-07</FchEmis>
+            <FmaPago>2</FmaPago>
+            <TermPagoGlosa>30 Días</TermPagoGlosa>
+            <FchVenc>2016-04-06</FchVenc>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>96590620-7</RUTEmisor>
+            <RznSoc>COEMBAL CHILE S A</RznSoc>
+            <GiroEmis>FABRICACION Y COMERCIALIZACION DE ENVASES PLASTICOS, EXPORTACION E IMPORTACION</GiroEmis>
+            <Acteco>252090</Acteco>
+            <DirOrigen>CHILE</DirOrigen>
+            <CmnaOrigen>Quilicura</CmnaOrigen>
+            <CiudadOrigen>Santiago</CiudadOrigen>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>76141730-4</RUTRecep>
+            <RznSocRecep>DILA LTDA</RznSocRecep>
+            <GiroRecep>COMERCIAL</GiroRecep>
+            <DirRecep>ANTILLANCA SUR # 611</DirRecep>
+            <CmnaRecep>PUDAHUEL</CmnaRecep>
+            <CiudadRecep>SANTIAGO</CiudadRecep>
+            <DirPostal>ANTILLANCA SUR # 611</DirPostal>
+            <CmnaPostal>PUDAHUEL</CmnaPostal>
+            <CiudadPostal>SANTIAGO</CiudadPostal>
+          </Receptor>
+          <Transporte>
+            <Patente>HGBT-27</Patente>
+            <DirDest>ANTILLANCA SUR # 611</DirDest>
+            <CmnaDest>PUDAHUEL</CmnaDest>
+            <CiudadDest>SANTIAGO</CiudadDest>
+          </Transporte>
+          <Totales>
+            <MntNeto>1256775</MntNeto>
+            <TasaIVA>19.00</TasaIVA>
+            <IVA>238787</IVA>
+            <MntTotal>1495562</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>PTPDI0038</VlrCodigo>
+          </CdgItem>
+          <NmbItem>POTE DILA 200</NmbItem>
+          <DscItem>10 CAJAS DE 675 UNIDADES.-</DscItem>
+          <QtyItem>6750.000000</QtyItem>
+          <PrcItem>23.900000</PrcItem>
+          <MontoItem>161325</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>2</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>PTPDI0040</VlrCodigo>
+          </CdgItem>
+          <NmbItem>POTE DILA 250</NmbItem>
+          <DscItem>20 CAJAS DE 675 UNIDADES.-</DscItem>
+          <QtyItem>13500.000000</QtyItem>
+          <PrcItem>23.900000</PrcItem>
+          <MontoItem>322650</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>3</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>PTPDI0045</VlrCodigo>
+          </CdgItem>
+          <NmbItem>POTE 400  CON RODON PP</NmbItem>
+          <DscItem>40 CAJAS DE 600 UNIDADES.-</DscItem>
+          <QtyItem>24000.000000</QtyItem>
+          <PrcItem>32.200000</PrcItem>
+          <MontoItem>772800</MontoItem>
+        </Detalle>
+        <Referencia>
+          <NroLinRef>1</NroLinRef>
+          <TpoDocRef>801</TpoDocRef>
+          <FolioRef>2061</FolioRef>
+          <FchRef>2016-03-07</FchRef>
+        </Referencia>
+        <Referencia>
+          <NroLinRef>2</NroLinRef>
+          <TpoDocRef>802</TpoDocRef>
+          <FolioRef>2433</FolioRef>
+          <FchRef>2016-01-14</FchRef>
+        </Referencia>
+        <TED version="1.0">
+          <DD>
+            <RE>96590620-7</RE>
+            <TD>33</TD>
+            <F>25388</F>
+            <FE>2016-03-07</FE>
+            <RR>76141730-4</RR>
+            <RSR>DILA LTDA</RSR>
+            <MNT>1495562</MNT>
+            <IT1>POTE DILA 200</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>96590620-7</RE>
+                <RS>COEMBAL CHILE S A</RS>
+                <TD>33</TD>
+                <RNG>
+                  <D>22585</D>
+                  <H>25690</H>
+                </RNG>
+                <FA>2015-06-25</FA>
+                <RSAPK>
+                  <M>6sVhv2OyroTGXAmDkPuDIUVqNKD7g+loTJLLw7XBESgJNTQYBQ7u6aRuzaSOIJM8Vnid+RtC7klhbCnMD2iqMw==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">XtmErI/vVddAxDv2oCx6AfZGBJhxK4iSGx0ieWL8BwIF8cujYwpmCZLR8KZYOnZyWYbkgoQzJvseZy3AymIfaw==</FRMA>
+            </CAF>
+            <TSTED>2016-03-07T08:47:57</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">HCQOwZ6WZdP93/MpWEg3fqnzyk167EpdUnz8f1SKzcvo8AN2SMfi4IPo/pG7nVHHtqypZrr6dEwYkuTMuUIOxA==</FRMT>
+        </TED>
+        <TmstFirma>2016-03-07T08:48:00</TmstFirma>
+      </Documento><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#F25388T33"><Transforms><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>pFc3oEx1nPuXvFR708vk3D4JB1o=</DigestValue></Reference></SignedInfo><SignatureValue>
+ZCNg18EwlWDxxj2z37ljEwdaSbRa9D7zvH9BPV2ychxjy9bR1f83DfXIsUNpihi1
+gXXCTKXhHFCWKeBcuaY5ECalZeB4GOAPT9epcjdIQuUpkKwp1+yBEhIJe7cJwvw9
+HkVjQqsAU0CvzidkVm/CkkXtnYLfQh0TBDJ1yuE5ZE2k1owoszgGoWbCy1IHECry
+51b5+xI2cGYt5DVhzSrd96/gBZsRLGz94ldlA7rOVDSofou6WirV40L47ZBeOdEY
+w1uGoYSJoJO5QLzM1vULvLVqtFQZPE4lgSpe3EErO7dpIEhaEPizzYssVqCIlSy+
+TjS6PPrq57VpsiFy2xHCiQ==
+</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>
+tZSL24Vfe6o+ALeNAU5QIqNg5kbyh7WZ3l8s5PcKX/wli5AFUHYsAXZ1QhgXr/xD
+haMm6oeHjNuUXpHScwaJtM8uToOZF+RNZBk0gylGlzuBFYF6segmgYUWCoE3Sops
+cIHFMi2wj46IWOvb5WrFnoVapMuYBGzrtsZ6nCAMz6Ff60zl03tu5C4l0HCheXDe
+a/x0fGjTWFa16VB8uh5PT2YLtYXiyLi7Ke5Qow7jdEho1w3AGYLa8SSOACCnXNB7
+sp/1iwWRP93mCZMpVU1Ess12QlXeDs3vNPKauwAa4Y3arQWdno/lMm/HTCFn3uYM
+QLqwiXXzFgn0o7VtO0ao8Q==
+</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>
+MIIGTDCCBTSgAwIBAgIQIxn5IV7A4Ldjw32U+iOdwzANBgkqhkiG9w0BAQUFADCB
+qDELMAkGA1UEBhMCQ0wxFDASBgNVBAoTC0UtU2lnbiBTLkEuMR8wHQYDVQQLExZT
+eW1hbnRlYyBUcnVzdCBOZXR3b3JrMUEwPwYDVQQDEzhFLVNpZ24gU0MgQ2xhc3Mg
+MiBDb25zdW1lciBJbmRpdmlkdWFsIFN1YnNjcmliZXIgQ0EgLSBHMjEfMB0GCSqG
+SIb3DQEJARYQZS1zaWduQGUtc2lnbi5jbDAeFw0xMzA4MjYwMDAwMDBaFw0xNjA4
+MjUyMzU5NTlaMIIBFDEUMBIGA1UEChMLRS1TaWduIFMuQS4xLTArBgNVBAsTJFRl
+cm1pbm9zIGRlIHVzbyBlbiB3d3cuZS1zaWduLmNsL3JwYTElMCMGA1UECxMcQXV0
+aGVudGljYXRlZCBieSBFLVNpZ24gUy5BLjEnMCUGA1UECxMeTWVtYmVyLCBTeW1h
+bnRlYyBUcnVzdCBOZXR3b3JrMRswGQYDVQQLExJEaWdpdGFsIElEIENsYXNzIDIx
+GTAXBgNVBAsUEFJVVCAtIDExNDc2OTg5LTQxIDAeBgNVBAMMF1BhbWVsYSBBdmVu
+ZGHDsW8gR2FsdmV6MSMwIQYJKoZIhvcNAQkBFhRwYXZlbmRhbm9AY29leHBhbi5j
+bDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALWUi9uFX3uqPgC3jQFO
+UCKjYOZG8oe1md5fLOT3Cl/8JYuQBVB2LAF2dUIYF6/8Q4WjJuqHh4zblF6R0nMG
+ibTPLk6DmRfkTWQZNIMpRpc7gRWBerHoJoGFFgqBN0qKbHCBxTItsI+OiFjr2+Vq
+xZ6FWqTLmARs67bGepwgDM+hX+tM5dN7buQuJdBwoXlw3mv8dHxo01hWtelQfLoe
+T09mC7WF4si4uynuUKMO43RIaNcNwBmC2vEkjgAgp1zQe7Kf9YsFkT/d5gmTKVVN
+RLLNdkJV3g7N7zTymrsAGuGN2q0FnZ6P5TJvx0whZ97mDEC6sIl18xYJ9KO1bTtG
+qPECAwEAAaOCAgEwggH9MCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYKMTE0NzY5
+ODktNDAJBgNVHRMEAjAAMAsGA1UdDwQEAwIFoDBPBgNVHR8ESDBGMESgQqBAhj5o
+dHRwOi8vb25zaXRlY3JsLnZlcmlzaWduLmNvbS9FU2lnblNBQ1NDQ2xhc3MyRzIv
+TGF0ZXN0Q1JMLmNybDAfBgNVHSMEGDAWgBTbz3diWAs4NiUtGtJqxFQBsm5MDjAd
+BgNVHQ4EFgQUuvChrACO55OFjWzRga6ysy67vyIwOwYIKwYBBQUHAQEELzAtMCsG
+CCsGAQUFBzABhh9odHRwOi8vb25zaXRlLW9jc3AudmVyaXNpZ24uY29tMIGYBgNV
+HSAEgZAwgY0wgYoGC2CGSAGG+EUBBxcCMHswMQYIKwYBBQUHAgEWJWh0dHBzOi8v
+d3d3LmUtc2lnbi5jbC9yZXBvc2l0b3Jpby5odG0wRgYIKwYBBQUHAgIwOho4Q2Vy
+dGlmaWNhZG8gcGFyYSB1c28gVHJpYnV0YXJpbywgQ29tZXJjaW8sIFBhZ29zIHkg
+T3Ryb3MwEQYJYIZIAYb4QgEBBAQDAgeAMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggr
+BgEFBQcDBDAjBgNVHRIEHDAaoBgGCCsGAQQBwQECoAwWCjk5NTUxNzQwLUswDQYJ
+KoZIhvcNAQEFBQADggEBAGbgQnxmGtCWSQQFjhny8PtYnoRTofJIZkjFLE9T8UOX
+6odYlUdFFP9fTQHeN/+LnFqoqM3Hx055ZH4YgYesPLIS1+1T+QQgWPnDoLrkoGct
+mSMwsjc9Ar2+jR1P+1kU3Ve7K/wX1Kilc83BVmB9n+Vl4AF13ntnYfbd1TFKb94v
+q7BB20tOsXltF2zf3ieDpP0xOe9MKk9RYSrsizqfYWJzV+I1bYzaZT9ri3maWlI8
++By2PZyb2MzX2B2ZuhtOp961z3pAawn9JSaqaJDCbeBwf5ru2yXxQW1PeNqboFpi
+fBXNyZ9BfBYVw/xZSGN2BzKPYCoAC7NC26zfAhbO1pk=
+</X509Certificate></X509Data></KeyInfo></Signature>
+    </DTE></SetDTE><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#ID96590620-7__1__33__25388"><Transforms><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ZXyAOuczyJB+gHfhf6Ywt8ygjco=</DigestValue></Reference></SignedInfo><SignatureValue>
+Xy+hH1QSOe+aYMOT3Q+pwWQZc20YrETiDy2rRih8euL7SBGVA/EfBB9onVRmUW59
+coiGLA8536/qTN3ynt39h0t88SfOZdvj/Ifdt2S7U7XxizVxVNYA5AryVhPPy11I
+3UgGSF7vJ13KdT0W06LZeYVHafODsuVzy1E7JtWowjg=
+</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>
+8Bz2AvaOWxBWnUwX3BWpu5TaX67DjyriV3syM6vgFd7YnLQrcB4FvVPXEzaozvbq
+SisEj8P3se5dtOChQHZEiXKSPif1z5EQf77mPCisGy5vKXo3WYKn6QRZQaeJuGHG
+NUglolQMT1dnoQFd2eyihK07A/5zoI6EDukmVSJ0NwM=
+</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>
+MIIGUzCCBTugAwIBAgIKGCJ1VgAAAAK3mDANBgkqhkiG9w0BAQUFADCB0jELMAkG
+A1UEBhMCQ0wxHTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQH
+EwhTYW50aWFnbzEUMBIGA1UEChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9y
+aWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQDEydFLUNFUlRDSElMRSBDQSBGSVJN
+QSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEWGHNjbGllbnRlc0Bl
+LWNlcnRjaGlsZS5jbDAeFw0xNTA4MjAxODA5NTJaFw0xODA4MTkxODA5NTJaMIHW
+MQswCQYDVQQGEwJDTDEjMCEGA1UECBMaTUVUUk9QT0xJVEFOQSBERSBTQU5USUFH
+TyAxETAPBgNVBAcTCFNhbnRpYWdvMSYwJAYDVQQKEx1Tb3V0aCBDb25zdWx0aW5n
+IFNpZ25hdHVyZSBTQTEKMAgGA1UECwwBKjEnMCUGA1UEAxMeTWFyaW8gQXVndXN0
+byBGZXJuYW5kZXogQ3Vlc3RhMTIwMAYJKoZIhvcNAQkBFiNtYXJpby5mZXJuYW5k
+ZXpAc291dGhjb25zdWx0aW5nLmNvbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkC
+gYEA8Bz2AvaOWxBWnUwX3BWpu5TaX67DjyriV3syM6vgFd7YnLQrcB4FvVPXEzao
+zvbqSisEj8P3se5dtOChQHZEiXKSPif1z5EQf77mPCisGy5vKXo3WYKn6QRZQaeJ
+uGHGNUglolQMT1dnoQFd2eyihK07A/5zoI6EDukmVSJ0NwMCAwEAAaOCAqcwggKj
+MD0GCSsGAQQBgjcVBwQwMC4GJisGAQQBgjcVCILcgy+Fk4xmhdWdF4Li3CeB7+w8
+YYGa5xWGr+AVAgFkAgEEMB0GA1UdDgQWBBRCF+KIxtcnajz+d3ZPivpheOFVkTAL
+BgNVHQ8EBAMCBPAwHwYDVR0jBBgwFoAUeOE+n9ISs3o8jc0wDlOzQykHs1UwPgYD
+VR0fBDcwNTAzoDGgL4YtaHR0cDovL2NybC5lLWNlcnRjaGlsZS5jbC9lY2VydGNo
+aWxlY2FGRVMuY3JsMDoGCCsGAQUFBwEBBC4wLDAqBggrBgEFBQcwAYYeaHR0cDov
+L29jc3AuZWNlcnRjaGlsZS5jbC9vY3NwMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGg
+DBYKMTQ2ODE1OTYtMDAjBgNVHRIEHDAaoBgGCCsGAQQBwQECoAwWCjk2OTI4MTgw
+LTUwggFNBgNVHSAEggFEMIIBQDCCATwGCCsGAQQBw1IFMIIBLjAtBggrBgEFBQcC
+ARYhaHR0cDovL3d3dy5lLWNlcnRjaGlsZS5jbC9DUFMuaHRtMIH8BggrBgEFBQcC
+AjCB7x6B7ABDAGUAcgB0AGkAZgBpAGMAYQBkAG8AIABGAGkAcgBtAGEAIABTAGkA
+bQBwAGwAZQAuACAASABhACAAcwBpAGQAbwAgAHYAYQBsAGkAZABhAGQAbwAgAGUA
+bgAgAGYAbwByAG0AYQAgAHAAcgBlAHMAZQBuAGMAaQBhAGwALAAgAHEAdQBlAGQA
+YQBuAGQAbwAgAGgAYQBiAGkAbABpAHQAYQBkAG8AIABlAGwAIABDAGUAcgB0AGkA
+ZgBpAGMAYQBkAG8AIABwAGEAcgBhACAAdQBzAG8AIAB0AHIAaQBiAHUAdABhAHIA
+aQBvMA0GCSqGSIb3DQEBBQUAA4IBAQAl2YIxlaWiRy7aCQYZ4tbDu2FJRA8xGtH1
+tQkMbeM+xTgj1lsYnaEVK3sih1FOa/EsPs6njtT1bNjeGRldzhBs7GPDzGMxV3sg
+dXNMxX7L/J3HlEhaR6attRXDE7/zLj9oy20j8wNMjERd6S6a22LjMxuoH+OquOdI
+oWjXZkfklaFIu4ZZQ9yy8XMyhxaSAIwbeSSnXejAxsqElBm8Dm+q30pumTRQqy9X
+/bW8hoIh/RfRp81glV7iUAIjdU+7zu5qU98kFIMZeg2XMvqfig+NUIQXz9HcGvBG
+uHg7iN3zXemlkQJBFzRSuaACu9ZYu9aRXW9GL4GUXs55Bxt0iw0H
+</X509Certificate></X509Data></KeyInfo></Signature>
+  
+</EnvioDTE>
