@@ -23,11 +23,11 @@ namespace Vista
                "<Recibo version=\"1.0\">\r\n"
               + "<DocumentoRecibo ID=\"T33\">\r\n"
               + "<TipoDoc>33</TipoDoc>\r\n"
-              + "<Folio>52423</Folio>\r\n"
-              + "<FchEmis>2016-05-23</FchEmis>\r\n"
+              + "<Folio>52099</Folio>\r\n"
+              + "<FchEmis>2016-08-26</FchEmis>\r\n"
               + "<RUTEmisor>88888888-8</RUTEmisor>\r\n"
               + "<RUTRecep>"+empresa.RutEmisor+"</RUTRecep>\r\n"
-              + "<MntTotal>11690</MntTotal>\r\n" //TODO
+              + "<MntTotal>2533</MntTotal>\r\n" //TODO
               + "<Recinto>Bodega Central</Recinto>\r\n"
               + "<RutFirma>12891016-6</RutFirma>\r\n"
               + "<Declaracion>El acuse de recibo que se declara en este acto, de acuerdo a lo dispuesto en la letra b) del Art. 4, y la letra c) del Art. 5 de la Ley 19.983, acredita que la entrega de mercaderias o servicio(s) prestado(s) ha(n) sido recibido(s).</Declaracion>\r\n"

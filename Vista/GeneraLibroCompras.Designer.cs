@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.lblNomCliente = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
@@ -45,6 +45,9 @@
             this.MntNeto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MntExe = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.IVA = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tipoimp = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tasaimp = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.montoimp = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MntTotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
@@ -56,13 +59,21 @@
             this.Impuestos = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Mnt_Total = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.button2 = new System.Windows.Forms.Button();
+            this.buttonVerPdf = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.tipodoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Codimp = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Totimp = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.openFileDialogXml = new System.Windows.Forms.OpenFileDialog();
+            this.label4 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.tableLayoutPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -75,11 +86,13 @@
             this.tableLayoutPanel1.Controls.Add(this.dataGridView1, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.label1, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.dataGridView2, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 0, 5);
+            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 0, 8);
+            this.tableLayoutPanel1.Controls.Add(this.label3, 0, 6);
+            this.tableLayoutPanel1.Controls.Add(this.dataGridView3, 0, 7);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 7;
+            this.tableLayoutPanel1.RowCount = 9;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -87,7 +100,9 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1173, 519);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1173, 643);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // lblNomCliente
@@ -109,7 +124,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 53.47222F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 46.52778F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 324F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 26F));
             this.tableLayoutPanel2.Controls.Add(this.label2, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.dateTimePicker1, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.buttonActualiza, 2, 0);
@@ -136,7 +151,7 @@
             this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(156, 7);
+            this.dateTimePicker1.Location = new System.Drawing.Point(155, 7);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(95, 22);
             this.dateTimePicker1.TabIndex = 4;
@@ -144,7 +159,7 @@
             // buttonActualiza
             // 
             this.buttonActualiza.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.buttonActualiza.Location = new System.Drawing.Point(289, 6);
+            this.buttonActualiza.Location = new System.Drawing.Point(287, 6);
             this.buttonActualiza.Name = "buttonActualiza";
             this.buttonActualiza.Size = new System.Drawing.Size(75, 23);
             this.buttonActualiza.TabIndex = 6;
@@ -167,6 +182,9 @@
             this.MntNeto,
             this.MntExe,
             this.IVA,
+            this.tipoimp,
+            this.tasaimp,
+            this.montoimp,
             this.MntTotal});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(4, 70);
@@ -228,6 +246,24 @@
             this.IVA.HeaderText = "IVA";
             this.IVA.Name = "IVA";
             this.IVA.ReadOnly = true;
+            // 
+            // tipoimp
+            // 
+            this.tipoimp.HeaderText = "Tipo Impuesto";
+            this.tipoimp.Name = "tipoimp";
+            this.tipoimp.ReadOnly = true;
+            // 
+            // tasaimp
+            // 
+            this.tasaimp.HeaderText = "Tasa Impuestos";
+            this.tasaimp.Name = "tasaimp";
+            this.tasaimp.ReadOnly = true;
+            // 
+            // montoimp
+            // 
+            this.montoimp.HeaderText = "Monto Impuestos";
+            this.montoimp.Name = "montoimp";
+            this.montoimp.ReadOnly = true;
             // 
             // MntTotal
             // 
@@ -293,8 +329,8 @@
             // 
             // MntIVA
             // 
-            dataGridViewCellStyle1.NullValue = null;
-            this.MntIVA.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.NullValue = null;
+            this.MntIVA.DefaultCellStyle = dataGridViewCellStyle2;
             this.MntIVA.HeaderText = "IVA";
             this.MntIVA.Name = "MntIVA";
             this.MntIVA.ReadOnly = true;
@@ -316,49 +352,110 @@
             this.tableLayoutPanel3.ColumnCount = 5;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.21247F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 74.78754F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 140F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 216F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.Controls.Add(this.button2, 1, 0);
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 21F));
+            this.tableLayoutPanel3.Controls.Add(this.buttonVerPdf, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.button1, 0, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(4, 474);
+            this.tableLayoutPanel3.Controls.Add(this.label4, 2, 0);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(4, 604);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(534, 32);
             this.tableLayoutPanel3.TabIndex = 9;
             // 
-            // button2
+            // buttonVerPdf
             // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button2.Location = new System.Drawing.Point(92, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Ver Reporte";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.buttonVerPdf.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.buttonVerPdf.Location = new System.Drawing.Point(72, 4);
+            this.buttonVerPdf.Name = "buttonVerPdf";
+            this.buttonVerPdf.Size = new System.Drawing.Size(75, 23);
+            this.buttonVerPdf.TabIndex = 8;
+            this.buttonVerPdf.Text = "Ver PDF";
+            this.buttonVerPdf.UseVisualStyleBackColor = true;
+            this.buttonVerPdf.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.button1.Location = new System.Drawing.Point(3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(83, 23);
+            this.button1.Size = new System.Drawing.Size(63, 23);
             this.button1.TabIndex = 7;
             this.button1.Text = "Crear JSON";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(4, 474);
+            this.label3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(257, 18);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "RESUMEN OTROS IMPUESTOS";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // dataGridView3
+            // 
+            this.dataGridView3.AllowUserToAddRows = false;
+            this.dataGridView3.AllowUserToDeleteRows = false;
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.tipodoc,
+            this.Codimp,
+            this.Totimp});
+            this.dataGridView3.Location = new System.Drawing.Point(4, 498);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.ReadOnly = true;
+            this.dataGridView3.Size = new System.Drawing.Size(737, 99);
+            this.dataGridView3.TabIndex = 11;
+            // 
+            // tipodoc
+            // 
+            this.tipodoc.HeaderText = "Tipo DTE";
+            this.tipodoc.Name = "tipodoc";
+            this.tipodoc.ReadOnly = true;
+            // 
+            // Codimp
+            // 
+            this.Codimp.HeaderText = "Codigo Impuesto";
+            this.Codimp.Name = "Codimp";
+            this.Codimp.ReadOnly = true;
+            // 
+            // Totimp
+            // 
+            this.Totimp.HeaderText = "Total Impuesto";
+            this.Totimp.Name = "Totimp";
+            this.Totimp.ReadOnly = true;
+            // 
+            // openFileDialogXml
+            // 
+            this.openFileDialogXml.FileName = "openFileDialogXml";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(279, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "label4";
             // 
             // GeneraLibroCompras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1173, 516);
+            this.ClientSize = new System.Drawing.Size(1173, 661);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "GeneraLibroCompras";
             this.Text = "GeneraLibroCompras";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.GeneraLibroCompras_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
@@ -367,6 +464,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -380,16 +479,6 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button buttonActualiza;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TipoDTE;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Folio;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FchEmis;
-        private System.Windows.Forms.DataGridViewTextBoxColumn RUTEmisor;
-        private System.Windows.Forms.DataGridViewTextBoxColumn RUTRecep;
-        private System.Windows.Forms.DataGridViewTextBoxColumn RznSoc;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MntNeto;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MntExe;
-        private System.Windows.Forms.DataGridViewTextBoxColumn IVA;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MntTotal;
         public System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Tipo_DTE;
@@ -401,6 +490,26 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Mnt_Total;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button buttonVerPdf;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TipoDTE;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Folio;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FchEmis;
+        private System.Windows.Forms.DataGridViewTextBoxColumn RUTEmisor;
+        private System.Windows.Forms.DataGridViewTextBoxColumn RUTRecep;
+        private System.Windows.Forms.DataGridViewTextBoxColumn RznSoc;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MntNeto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MntExe;
+        private System.Windows.Forms.DataGridViewTextBoxColumn IVA;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tipoimp;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tasaimp;
+        private System.Windows.Forms.DataGridViewTextBoxColumn montoimp;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MntTotal;
+        public System.Windows.Forms.Label label3;
+        private System.Windows.Forms.DataGridView dataGridView3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tipodoc;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Codimp;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Totimp;
+        private System.Windows.Forms.OpenFileDialog openFileDialogXml;
+        private System.Windows.Forms.Label label4;
     }
 }

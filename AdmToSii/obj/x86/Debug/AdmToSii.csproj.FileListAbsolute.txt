@@ -12,3 +12,17 @@ C:\Users\Mauricio\Documents\Visual Studio 2010\Projects\AdmToSii\AdmToSii\obj\x8
 C:\Users\Mauricio\Documents\Visual Studio 2010\Projects\AdmToSii\AdmToSii\obj\x86\Debug\AdmToSii.csproj.GenerateResource.Cache
 C:\Users\Mauricio\Documents\Visual Studio 2010\Projects\AdmToSii\AdmToSii\obj\x86\Debug\AdmToSii.exe
 C:\Users\Mauricio\Documents\Visual Studio 2010\Projects\AdmToSii\AdmToSii\obj\x86\Debug\AdmToSii.pdb
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\AdmToSii\obj\x86\Debug\AdmToSii.exe
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\AdmToSii\obj\x86\Debug\AdmToSii.pdb
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\AdmToSii\bin\Debug\AdmToSii.exe
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\AdmToSii\bin\Debug\AdmToSii.pdb
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\AdmToSii\bin\Debug\Vista.dll
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\AdmToSii\bin\Debug\Modelo.dll
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\AdmToSii\bin\Debug\Mail.dll
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\AdmToSii\bin\Debug\itextsharp.dll
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\AdmToSii\bin\Debug\System.Data.SQLite.dll
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\AdmToSii\bin\Debug\Vista.pdb
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\AdmToSii\bin\Debug\Modelo.pdb
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\AdmToSii\obj\x86\Debug\AdmToSii.csprojResolveAssemblyReference.cache
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\AdmToSii\obj\x86\Debug\AdmToSii.Properties.Resources.resources
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\AdmToSii\obj\x86\Debug\AdmToSii.csproj.GenerateResource.Cache

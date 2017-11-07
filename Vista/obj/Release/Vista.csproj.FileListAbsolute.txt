@@ -1,0 +1,10 @@
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\Vista\obj\Release\Vista.csprojResolveAssemblyReference.cache
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\Vista\obj\Release\Vista.ClientPop.resources
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\Vista\obj\Release\Vista.frmEmpresa.resources
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\Vista\obj\Release\Vista.frmProveedores.resources
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\Vista\obj\Release\Vista.FrmInicio.resources
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\Vista\obj\Release\Vista.GeneraLibroCompras.resources
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\Vista\obj\Release\Vista.GeneraLibroVenta.resources
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\Vista\obj\Release\Vista.ImportaLibroCompra.resources
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\Vista\obj\Release\Vista.ImportaLibroVenta.resources
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\Vista\obj\Release\Vista.csproj.GenerateResource.Cache

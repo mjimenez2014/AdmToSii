@@ -118,6 +118,7 @@
     <Compile Include="ImportaLibroVenta.Designer.cs">
       <DependentUpon>ImportaLibroVenta.cs</DependentUpon>
     </Compile>
+    <Compile Include="LibroCompraVenta.cs" />
     <Compile Include="Pdf.cs" />
     <Compile Include="ProcesoIat.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

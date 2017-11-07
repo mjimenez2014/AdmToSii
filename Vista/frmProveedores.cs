@@ -122,7 +122,7 @@ namespace Vista
             using (Pop3 pop3 = new Pop3())
             {
                 pop3.Connect("mail.invoicedigital.cl");       // or ConnectSSL for SSL
-                pop3.UseBestLogin("intercambiodila@invoicedigital.cl", "Elpreciosodt3");
+                pop3.UseBestLogin("intercambiosctgermany@invoicedigital.cl", "sctgermany2016");
                 
                 foreach (string uid in pop3.GetAll())
                 { 

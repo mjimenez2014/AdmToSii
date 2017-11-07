@@ -38,13 +38,12 @@ namespace Vista
                     line = line.Replace("Ñ", "N");
                     line = line.Replace("&", "Y");
                     string[] row = line.Split(';');
-                    Console.WriteLine(row[2]);
                     parsedata.Add(row);
 
                 }
             }
-            dataGridView1.ColumnCount = 18;
-            for (int i = 0; i < 18; i++)
+            dataGridView1.ColumnCount = 15;
+            for (int i = 0; i < 15; i++)
             {
                 var sb = new StringBuilder(parsedata[0][i]);
                 sb.Replace('_', ' ');
@@ -76,6 +75,7 @@ namespace Vista
                 {
                     try
                     {
+
                         doc.TipoDTE = Convert.ToInt32(row[0]);
                         doc.Folio = Convert.ToInt32(row[1]);
                         doc.FchEmis = row[2];
@@ -85,9 +85,14 @@ namespace Vista
                         doc.MntNeto = Convert.ToInt32(row[6]);
                         doc.MntExe = Convert.ToInt32(row[7]);
                         doc.IVA = Convert.ToInt32(row[8]);
-                        doc.MntTotal = Convert.ToInt32(row[10]);
+                        doc.tipoimp = row[9].ToString();
+                        if (row[10] == "") row[10] = "0";
+                        doc.tasaimp = Convert.ToDecimal(row[10]);
+                        if (row[11] == "") row[11] = "0";
+                        doc.montoimp = Convert.ToInt32(row[11]);
+                        doc.MntTotal = Convert.ToInt32(row[12]);
                         doc.estado = "PREVIO";
-                        doc.save(doc);
+                        if (doc.exist(doc.RUTEmisor,doc.TipoDTE.ToString(),doc.Folio.ToString()) == "False") doc.save(doc);
                     }
                     catch (Exception ex)
                     {
@@ -100,6 +105,11 @@ namespace Vista
         }
 
         private void ImportaLibroCompra_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
         {
 
         }

@@ -31,7 +31,7 @@ namespace Vista
                 + "<TmstFirmaResp>2016-03-23T16:40:00</TmstFirmaResp>"
                 + "</Caratula>"
                 + "<RecepcionEnvio>"
-                + "<NmbEnvio>ENVIO_DTE_535549.xml</NmbEnvio>"//
+                + "<NmbEnvio>ENVIO_DTE_684852.xml</NmbEnvio>"//
                 + "<FchRecep>2014-12-04T16:39:00</FchRecep>"
                 + "<CodEnvio>1</CodEnvio>"
                 + "<EnvioDTEID>SetDoc</EnvioDTEID>"
@@ -41,22 +41,22 @@ namespace Vista
                 //Foreach
                 + "<RecepcionDTE>"
                 + "<TipoDTE>33</TipoDTE>"
-                + "<Folio>52423</Folio>"
-                + "<FchEmis>2016-05-23</FchEmis>"
+                + "<Folio>52099</Folio>" //TODO
+                + "<FchEmis>2016-08-26</FchEmis>"
                 + "<RUTEmisor>88888888-8</RUTEmisor>"
                 + "<RUTRecep>"+empresa.RutEmisor+"</RUTRecep>"
-                + "<MntTotal>11690</MntTotal>"
+                + "<MntTotal>2533</MntTotal>"
                 + "<EstadoRecepDTE>0</EstadoRecepDTE>"
                 + "<RecepDTEGlosa>DTE Aceptado OK</RecepDTEGlosa>"
                 + "</RecepcionDTE>"
                 //Fin Foreach
                 + "<RecepcionDTE>"
                 + "<TipoDTE>33</TipoDTE>"
-                + "<Folio>52424</Folio>"
+                + "<Folio>52100</Folio>"
                 + "<FchEmis>2013-06-21</FchEmis>"
                 + "<RUTEmisor>88888888-8</RUTEmisor>"
                 + "<RUTRecep>69507000-4</RUTRecep>"
-                + "<MntTotal>16450</MntTotal>"
+                + "<MntTotal>3723</MntTotal>"
                 + "<EstadoRecepDTE>3</EstadoRecepDTE>"
                 + "<RecepDTEGlosa>DTE No Recibido - Error RUT Receptor</RecepDTEGlosa>"
                 + "</RecepcionDTE>"

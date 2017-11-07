@@ -1,0 +1,2 @@
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\AdmToSii\obj\x86\Release\AdmToSii.Properties.Resources.resources
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\AdmToSii\obj\x86\Release\AdmToSii.csproj.GenerateResource.Cache

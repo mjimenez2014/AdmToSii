@@ -96,5 +96,10 @@ namespace Vista
         {
             new frmProveedores().ShowDialog();
         }
+
+        private void salirToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

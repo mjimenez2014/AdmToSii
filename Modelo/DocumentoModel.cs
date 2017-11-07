@@ -121,6 +121,13 @@ namespace Modelo
         public string estado { get; set; } // estado de el documento de compra
         public string NombreXml { get; set; } //nombre del xml recibido de proveedores
 
+        public string tipoimp { get; set; }
+
+        public decimal tasaimp { get; set; }
+
+        public int montoimp { get; set; }
+
+
         //este atributo es una ista la cual carga las sucursales de la empresa certificada
         // debe ser llenado al momento de cargar la clase, ya que no es un atributo serializable
         public List<Sucursal> sucursalesempresa = new List<Sucursal>(8);
@@ -283,10 +290,11 @@ namespace Modelo
 
         public void save(DocumentoModel doc)
         {
+            SQLiteConnection myConn = bd.ConnectSqlite();
+            // myConn.Open();
             try
             {
-                SQLiteConnection myConn = bd.ConnectSqlite();
-                // myConn.Open();
+  
 
                 string sql = "INSERT INTO documento ("+
                              "TipoDTE," +
@@ -298,6 +306,9 @@ namespace Modelo
                              "MntNeto," +
                              "MntExe," +
                              "IVA," +
+                             "tipoimp,"+
+                             "tasaimp,"+
+                             "montoimp,"+
                              "MntTotal," +
                              "estado," +
                              "NombreXml"+
@@ -310,7 +321,10 @@ namespace Modelo
                              doc.RznSoc + "'," +
                              doc.MntNeto + "," +
                              doc.MntExe + "," +
-                             doc.IVA + "," +
+                             doc.IVA + ",'" +
+                             doc.tipoimp + "'," +
+                             doc.tasaimp +","+
+                             doc.montoimp +","+
                              doc.MntTotal + ",'" +
                              doc.estado + "','" +
                              doc.NombreXml + "'" +
@@ -318,15 +332,16 @@ namespace Modelo
 
                 SQLiteCommand command = new SQLiteCommand(sql, myConn);
                 command.ExecuteNonQuery();
+                Console.WriteLine(">>>>>>>> "+ doc.Folio);
 
-                myConn.Close();
+                
             }
             catch (Exception empUpdate)
             {
                 Console.WriteLine("====================== ERROR: {0}" + empUpdate.ToString() + " ==========================");
                // MessageBox.Show("ERROR: {0}" + empUpdate.ToString());
             }
-
+            myConn.Close();
         }
 
         public string exist(string rutEmisor, string tipoDte, string folio)
@@ -357,6 +372,8 @@ namespace Modelo
 
             return exist;
         }
+
+
 
     }
 

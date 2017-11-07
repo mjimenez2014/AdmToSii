@@ -4,3 +4,9 @@ C:\Users\Mauricio\Documents\Visual Studio 2010\Projects\AdmToSii\Modelo\bin\Debu
 C:\Users\Mauricio\Documents\Visual Studio 2010\Projects\AdmToSii\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
 C:\Users\Mauricio\Documents\Visual Studio 2010\Projects\AdmToSii\Modelo\obj\Debug\Modelo.dll
 C:\Users\Mauricio\Documents\Visual Studio 2010\Projects\AdmToSii\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\Modelo\bin\Debug\Modelo.dll
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\Modelo\bin\Debug\System.Data.SQLite.dll
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\Modelo\obj\Debug\Modelo.dll
+C:\Users\Mauricio\Documents\Visual Studio 2015\Projects\AdmToSii\Modelo\obj\Debug\Modelo.pdb

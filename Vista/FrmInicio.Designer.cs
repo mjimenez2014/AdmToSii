@@ -57,6 +57,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.buttonActualiza = new System.Windows.Forms.Button();
             this.labelNmbEmpresa = new System.Windows.Forms.Label();
+            this.salirToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.tableLayoutPanel1.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -108,6 +109,8 @@
             // 
             // salirToolStripMenuItem
             // 
+            this.salirToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.salirToolStripMenuItem1});
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(55, 19);
             this.salirToolStripMenuItem.Text = "Archivo";
@@ -269,7 +272,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 484F));
             this.tableLayoutPanel2.Controls.Add(this.label2, 2, 0);
             this.tableLayoutPanel2.Controls.Add(this.dateTimePickerDesde, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.dateTimePickerHasta, 3, 0);
@@ -343,6 +346,13 @@
             this.labelNmbEmpresa.TabIndex = 5;
             this.labelNmbEmpresa.Text = "NmbEmpresa";
             // 
+            // salirToolStripMenuItem1
+            // 
+            this.salirToolStripMenuItem1.Name = "salirToolStripMenuItem1";
+            this.salirToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.salirToolStripMenuItem1.Text = "Salir";
+            this.salirToolStripMenuItem1.Click += new System.EventHandler(this.salirToolStripMenuItem1_Click);
+            // 
             // FrmInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -395,5 +405,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn xml;
         private System.Windows.Forms.ToolStripMenuItem proveedoresToolStripMenuItem;
         private System.Windows.Forms.Label labelNmbEmpresa;
+        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem1;
     }
 }

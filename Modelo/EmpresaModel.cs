@@ -92,9 +92,8 @@ namespace Modelo
                 empresa.PrnTwoCopy = reader["PrnTwoCopy"].ToString();
                 empresa.PrnMtoNeto = reader["PrnMtoNeto"].ToString();
                 empresa.PrnThermal = reader["PrnThermal"].ToString();
-
-
             }
+            myConn.Close();
             return empresa;
         }
     }
